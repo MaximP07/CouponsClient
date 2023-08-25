@@ -1,0 +1,28 @@
+.Layout { 
+    height: 100%;
+    border: 2px solid black;
+    background-color: lightgreen;
+    text-align: center;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); 
+    grid-template-rows: 10% 85% 5%; 
+  }
+  
+  .Layout> * {
+    border: 2px solid black;
+  }
+  
+  .Layout>Header, Footer {
+    grid-column: span 12;
+  }
+  
+  .Layout>aside {
+    grid-column: span 2;
+  }
+  
+  .Layout>main {
+    grid-column: span 10;   
+  } 
+  
+  

@@ -9,6 +9,8 @@ import Layout from './Components/Layout/Layout';
 
 
 function App() {
+  console.log("Started");
+  
   //const [coupons,setCopoms]
   return (
     <div className="App">

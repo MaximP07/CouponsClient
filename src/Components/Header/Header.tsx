@@ -4,7 +4,7 @@ import './Header.css';
 function Header() {
   return (
     <div className="Header">
-      <p>Welcome to Header</p>
+      <p>Welcome to Coupon Directory</p>
     </div>
   );
 }

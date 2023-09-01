@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import Menu from '../Menu/Menu';
 import Register from '../Register/Register';
 import './Layout.css';
+import Coupons from '../Coupons/Coupons';
 
 function Layout() {
   return (
@@ -17,7 +18,7 @@ function Layout() {
       </aside>
 
       <main>
-        <Register />
+      
       </main>
 
       <footer>

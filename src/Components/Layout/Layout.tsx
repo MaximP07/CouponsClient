@@ -4,7 +4,9 @@ import Header from '../Header/Header';
 import Menu from '../Menu/Menu';
 import Register from '../Register/Register';
 import './Layout.css';
-import Coupons from '../Coupons/Coupons';
+import CouponsContainer from '../../CouponsContainer/CouponsContainer';
+import CouponCard from '../../CouponCard/CouponCard';
+
 
 function Layout() {
   return (
@@ -18,7 +20,9 @@ function Layout() {
       </aside>
 
       <main>
+      <CouponsContainer/>
       
+        
       </main>
 
       <footer>

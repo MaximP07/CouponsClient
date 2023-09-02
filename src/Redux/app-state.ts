@@ -1,4 +1,4 @@
-import { ICoupon } from "../Models/ICoupon";
+import { ICoupon} from "../Models/ICoupon";
 
 
 export class AppState {

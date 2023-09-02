@@ -6,5 +6,7 @@ export interface ICoupon {
     endDate: string;
     amount: number;
     price: number;
-  
   }
+  
+
+

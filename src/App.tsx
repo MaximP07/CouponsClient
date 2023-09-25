@@ -7,6 +7,7 @@ import CouponCard from './CouponCard/CouponCard';
 
 
 
+
 function App() {  
   return (
     <div className="App">
@@ -15,6 +16,8 @@ function App() {
             
       
     </div>
+
+    
   );
 }
 

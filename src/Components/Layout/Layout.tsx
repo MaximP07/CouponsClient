@@ -6,14 +6,19 @@ import Register from '../Register/Register';
 import './Layout.css';
 import CouponsContainer from '../../CouponsContainer/CouponsContainer';
 import CouponCard from '../../CouponCard/CouponCard';
+import Login from '../Login/Login';
+import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
+
 
 
 function Layout() {
+
   return (
     <section className="layout">
       <header>
         <Header />
       </header>
+      
 
       <aside>
         <Menu />
@@ -21,8 +26,6 @@ function Layout() {
 
       <main>
       <CouponsContainer/>
-      
-        
       </main>
 
       <footer>

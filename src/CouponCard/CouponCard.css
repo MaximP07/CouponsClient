@@ -1,9 +1,18 @@
 .CouponCard{
-    flex:  1;
+    flex :10;
+    display: flex;
     display:inline-block;
-    max-width: 150px;
-    height: 200px;
-    background-color: white;
+    max-width: 300px;
+    height: 170px;
     padding: 10px;
     margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(175, 247, 231);
+    opacity: 80%;
+    transition: 0.2s;
+}
+
+.CouponCard:focus{
+    outline: none;
+    visibility: 10%;
 }

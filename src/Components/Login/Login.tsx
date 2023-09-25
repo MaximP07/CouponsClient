@@ -10,7 +10,6 @@ function Login() {
 
   async function setLogin(){
     let loginDetains ={userName,password};
-    debugger
     try{
     const response = await axios.post("http://localhost:8080/users/login", loginDetains);
     const serverResponse = response.data;
@@ -25,7 +24,7 @@ function Login() {
   }
 
   return(
-    <div className="App">
+    <div className="Login">
       <input type="text" placeholder='Enter user name' onChange={event=>setUserName(event.target.value)}/>
       <input type="password" placeholder='Enter password' onChange={event=>setPassword(event.target.value)}/>
       <input type="button" value="login" onClick ={setLogin}/> 

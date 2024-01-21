@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ICategory } from '../../Models/ICategory';
+
 
 
 //let categories: ICategory[] = 
@@ -28,7 +28,7 @@ function Menu() {
 
   return (
     <div className="Menu">
-      <h1>sort by Category</h1>
+      Sort by
     </div>
   );
 

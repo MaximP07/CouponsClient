@@ -4,9 +4,8 @@
 
 .Modal{
     
-    margin-left :1300px;
-    margin-top: -10px;
-
+    margin-left :85%;
+    margin-top: -60px;
     
 }
 
@@ -17,14 +16,32 @@ h2{
 .modalLoginPage{
     width: 80px;
     height: 25px;
-    background-color: rgb(175, 247, 231);
+    background-color: rgb(255, 255, 255);
+    border-radius: 9px;
+    border-color: azure;
+    
 
+    
 }
 
 .modal-Register{
     width: 80px;
     height: 25px;
-    background-color: rgb(175, 247, 231);
+    background-color: rgb(255, 255, 255);
+    border-radius: 9px;
+    border-color: azure;
+    
+
     
 }
 
+.modalLoginPage.Header{
+   margin-top: 10%;
+}
+
+.Header{
+   h1{
+    margin-right: 84%;
+ }
+}
+ 

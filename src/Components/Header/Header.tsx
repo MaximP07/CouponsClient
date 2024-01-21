@@ -3,6 +3,7 @@ import Login from '../Login/Login';
 import './Header.css';
 import Modal from 'react-modal';
 import Register from '../Register/Register';
+import { ICoupon } from '../../Models/ICoupon';
 
 const customStyles = {
   content: {
@@ -12,10 +13,12 @@ const customStyles = {
       bottom: 'auto',
       marginRight: '-50%',
       transform: 'translate(-50%, -50%)',
-      background: "rgb(207, 250, 241)",
+      background: "rgb(255, 255, 255);",
       height: "250px",
       padding: "70px",
       width: "250px",
+      border: "100%",
+      radius: "5px",
       
  
      
@@ -32,8 +35,6 @@ function Header() {
 
   let [registerModalIsOpen, setRegisterModalIsOpen] = useState(false);
   let [isRegisterSucceded, setIsRegisterSucceded] = useState(false);
-
-
 
   
   function openLoginModal() {
@@ -52,12 +53,9 @@ function Header() {
     setRegisterModalIsOpen(false);
   }
 
-
-
-
   return (
     <>
-      <div className="Header"> Coupon Project</div>
+      <div className="Header"><h1>COUPON DIRECTORY</h1></div>
 
       <div className="Modal">
         {!isLoginSucceded && (
@@ -73,9 +71,8 @@ function Header() {
         >
           <h2>Login</h2>
           <Login
-           closeLoginModal={closeLoginModal}
            setIsLoginSucceded={setIsLoginSucceded}
-           
+           closeLoginModal={closeLoginModal}
           />
         </Modal>
         <div className='Register_Modal'>
@@ -92,8 +89,8 @@ function Header() {
           
           <h2>Register</h2>
           <Register
-           closeRegisterModal={closeRegisterModal}
            setIsRegisterSucceded={setIsRegisterSucceded}
+           closeRegisterModal={closeRegisterModal}
           />
         </Modal>
         </div>

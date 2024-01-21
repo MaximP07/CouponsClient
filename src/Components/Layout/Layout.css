@@ -1,7 +1,7 @@
 .layout { 
   height: 100%;
   border: 2px solid black;
-  background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=1600);
+  background-color: rgb(255, 255, 255);
   text-align: center;
   box-sizing: border-box;
   display: grid;
@@ -10,7 +10,7 @@
 }
 
 .layout> * {
-  border: 2px solid rgba(166, 241, 185, 0.171);
+  border: 2px solid rgb(0, 0, 0);
 }
 
 .layout>header, footer {

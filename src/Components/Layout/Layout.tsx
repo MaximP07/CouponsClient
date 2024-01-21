@@ -7,7 +7,10 @@ import './Layout.css';
 import CouponsContainer from '../../CouponsContainer/CouponsContainer';
 import CouponCard from '../../CouponCard/CouponCard';
 import Login from '../Login/Login';
-import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useNavigate, Router, Link } from 'react-router-dom';
+import { Modal } from 'react-bootstrap';
+
+
 
 
 
@@ -19,7 +22,6 @@ function Layout() {
         <Header />
       </header>
       
-
       <aside>
         <Menu />
       </aside>

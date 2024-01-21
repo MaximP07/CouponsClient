@@ -1,7 +1,30 @@
-.Header {
-    color: rgb(16, 168, 36);
-    font-size:110%;
-    text-align:left;
+ @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+
+
+.Modal{
+    
+    margin-left :1300px;
+    margin-top: -10px;
+
+    
 }
 
+h2{
+    padding-left: 35%;
+}
+
+.modalLoginPage{
+    width: 80px;
+    height: 25px;
+    background-color: rgb(175, 247, 231);
+
+}
+
+.modal-Register{
+    width: 80px;
+    height: 25px;
+    background-color: rgb(175, 247, 231);
+    
+}
 
